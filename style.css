@@ -1,0 +1,57 @@
+body,
+html {
+  width: 100vw;
+ 
+  margin: 0;padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  	background-position: center;
+	background-image: url("nokia.jpg");
+	background-size: cover;
+	
+}
+hr{
+	max-width: 90px;
+	border-color: yellow;
+
+}	
+
+
+header.startup h3{
+	font-size: 80px;
+	color: rgba(254, 253, 243,0.7);
+	
+}
+
+header.startup hr {
+  margin-top: 400px;
+  margin-bottom: 30px;
+
+}
+
+
+
+.btn{
+	
+	text-transform: uppercase;
+	border: 20px;
+	font-weight:700px;
+	border-radius: 20px;
+	font-family: "Kodchasan";
+}
+.btn-md{
+	padding: 1em 2em;
+}
+.btn-dark{
+	background-color:rgba(242, 230, 65,1); 
+
+}
+.btn-dark:hover{
+	background-color: #4842f4;
+	border-color: green;
+	border-width: 80px;
+	cursor: pointer;
+	 
+}
